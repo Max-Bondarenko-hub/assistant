@@ -1,16 +1,14 @@
-# group_project_6
+To use the BOT you need to:
 
-1. install venv
+1. Download it [**here**](https://github.com/andreysuha2/group_project_6/releases/tag/assistant)
+2. To install it, you need to run the following command in the source folder: 
+        pip install assistant-1.2.2-py3-none-any.whl or py/python3 -m pip install assistant-1.2.2-py3-none-any.whl.
+3. To run the bot, just type the command "assistant".
+<br/>
+<br/>
 
-```pip -m venv virtemv```
 
-2. Activate venv
-
-3. Install packages from requirements.txt
-
-```pip install requirements.txt```
-      
-        --- CONTACTS HELP ---
+# --- CONTACTS HELP ---
 
         syntax: search {query_string}
         description: searching contact by any field
@@ -73,11 +71,3 @@
         syntax: delete note {ID}
         description: This function deletes a note by it`s ID
         example: delete note 5
-
-        syntax: searh note {text or tag}
-        description: This function searches for notes by part or all word
-        example: search birthday
-
-        syntax: change note
-        description: This function modifies a note by it`s ID
-        example: change note
